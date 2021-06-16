@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/superslides.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/jquery.superslides.min.js"></script>
+		<script src="js/typed.min.js"></script>
+		<script src="js/script.min.js"></script>
+	</head>
+	<body>
+		<div id="loader"></div>
+		<div id="slides">
+			<div class="overlay"></div>
+			<div class="slides-container" id="home">
+				<img src="img/slide1.jpg" alt="">
+				<img src="img/slide2.jpg" alt="">
+				<img src="img/slide3.jpg" alt="">
+			</div>
+			<div class="titleMessage">
+				<div class="heading">
+					<p class="main">Nikos Giannopoulos</p>
+					<p class="sub typed"></p>
+					<a href="#about-me">About Me</a>
+				</div>
+			</div>
+			<nav class="slides-navigation">
+				<a href="#" class="next"></a>
+				<a href="#" class="prev"></a>
+			</nav>
+		</div>
+		<div class="profile" id="about-me">
+			<div id="nav-container">
+				<div id="nav-controler">
+					<ul id="nav-items">
+						<li class="list-item"><a href="#home">HOME</a></li>
+						<li class="list-item"><a href="#info">INFORMATION</a></li>
+						<!-- <li class="list-item"><a href="#">SKILLS</a></li> -->
+						<li class="list-item"><a href="#experience">EXPERIENCE</a></li>
+						<li class="list-item"><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+			<canvas id="canvas"></canvas>
+			<div id="photo-profile">
+				<img src="img/about.jpeg" width='100%' alt="">
+			</div>
+			<div id="title-controler">
+				<div id="title">
+					<h1>Nikos Giannopoulos</h1>
+					<h2>Data Scientist</h2>
+				</div>
+				<div id="button">
+					<a href="CV.pdf" target="_blank">Download CV</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="info">
+			<div id="info-heading">
+				<h1>ABOUT ME</h1>
+				<div class="underline">
+					<div class="line"></div>
+				</div>
+			</div>
+			<div id="info-controler">
+				<div id="info-item">
+					<p>Hi there! I'm Nikos Giannopoulos from Thessaloniki, Greece. I have worked as a Data Science Intern at NET2GRID Hellas where I was responsible for the Creation of  strategy to gather, utilize and store energy data to an appropriate dataset. Furthermore, I have worked on Machine Learning algorithms for real-time disaggregation and recognition of appliance models. My experience comes maintly from volunteerism, as I have been involved in TEDx University of Macedonia project as a web developer as well as in IEEE Aristotle University of Thessaloniki Student Branch as Machine Learning Study Group Coordinator. I gained programming  experience in many different languages and framework such as C, C++, Java, R, SPSS and MATLAB. However, what I enjoy the most is working with Python in the field of Machine Learning and Big Data. <br> <br>I have graduated from Aristotle University of Thessaloniki, Greece with a Five-year Diploma of Unified Circle Studies (Master's Degree) with Final Degree Grade: 7.99 out of 10 in Electrical and Computer Engineering and I have conquered the 3rd place at the European Best Engineering Competition 2015.</p>
+				</div>
+				
+			</div>
+		</div>
+		<div id="experience">
+			<div id="experience-heading">
+				<h1>MY EXPERIENCE</h1>
+				<div class="underline">
+					<div class="line"></div>
+				</div>
+			</div>
+			<div id="experience-controler">
+				<div id="y2011" class="x-item">
+					<h2>Anatolia College: 09/2011-06/2014</h2>
+					<p>1st General Private Lyceum, Thessaloniki, Greece Stream: Technological, Circle: Information and Services</p>
+				</div>
+				<img src="img/icons/cross.png" width="30%" class="cross" alt="">
+				<div id="y2015" class="x-item">
+					<h2>24-25/11/2015</h2>
+					<p>3rd place at the European Best Engineering Competition, Thessaloniki Greece</p>
+				</div>
+				<img src="img/icons/cross.png" width="30%" class="cross" alt="">
+				<div id="y2018" class="x-item">
+					<h2>IEEE Aristotle University: 05/2018-05/2019</h2>
+					<p>Organizer at Machine Learning Group while be Associate with the Electrical Engineer field: Teaching the Machine Learning subject to group of student while Present an interactive workshop "SFHMMY".</p>
+				</div>
+				<img src="img/icons/cross.png" width="30%" class="cross" alt="">
+				<div id="y2019" class="x-item">
+					<h2>Career Record: 03/2019-05/2019</h2>
+					<p>NET2GRID Hellas, Thessaloniki, Greece Position: Data Science Intern: Working on Machine Learning Algorithms for recognition models & gathering energy data and store them to a dataset.</p>
+				</div>
+				<img src="img/icons/cross.png" width="30%" class="cross" alt="">
+				<div id="y2020" class="x-item">
+					<h2>IEEE Aristotle University: 09/2014-07/2020</h2>
+					<p>Faculty of Engineering, School of Electrical and Computer Engineering:  Diploma of Unified Circle Studies  - Integrated Master in Electrical and Computer Engineering.</p>
+				</div>
+				<img src="img/icons/cross.png" width="30%" class="cross" alt="">
+			</div>
+		</div>
+		<div id="contact">
+			<div id="form-controler">
+				<div id="contact-heading">
+					<h1 style="padding-bottom: 1%;">GET IN TOUCH</h1>
+					<div class="underline">
+						<div class="line"></div>
+					</div>
+				</div>
+				<div id="social">
+					<div id="button-fline">
+						<a href="">Email</a>
+					</div>
+					<br>
+					<div id="button-sline"  id="block">
+						<div class="button-items">
+							<a href="">Instagram</a>
+						</div>
+						<div class="button-items">
+							<a href="">Facebook</a>
+						</div>
+						<div class="button-items">
+							<a href="">Tweeter</a>
+						</div>
+						<div class="button-items">
+							<a href="">Linkedin</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div id="footer-controler">
+			<div id="footer-item">
+				<h4>&copy; 2021 Gregorys Bachtsevanos. All rights reserved.</h4>
+			</div>
+		</div>
+	</body>
+</html>
